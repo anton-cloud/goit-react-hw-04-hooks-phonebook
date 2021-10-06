@@ -1,12 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const ContactListStyled = styled.ul `
+export const ContactListStyled = styled.ul`
   list-style: none;
 
   .wrapper {
     display: flex;
     justify-content: space-between;
-    
   }
 
   .text {
@@ -17,4 +16,4 @@ export const ContactListStyled = styled.ul `
     height: 25px;
     margin-right: 20px;
   }
-`
+`;
